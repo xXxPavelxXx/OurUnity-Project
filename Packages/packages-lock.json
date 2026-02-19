@@ -84,7 +84,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -102,6 +102,30 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.remote-config": {
+      "version": "4.2.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.remote-config-runtime": "4.0.4",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.remote-config-runtime": {
+      "version": "4.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.services.core": "1.12.5",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.services.authentication": "2.7.4"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.services.analytics": {
       "version": "6.0.3",
       "depth": 1,
@@ -110,6 +134,48 @@
         "com.unity.ugui": "1.0.0",
         "com.unity.services.core": "1.12.4",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.apis": {
+      "version": "1.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.authentication": {
+      "version": "3.3.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.12.5",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.cloud-build": {
+      "version": "1.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.services.core": "1.7.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.cloudsave": {
+      "version": "3.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.services.core": "1.12.5",
+        "com.unity.services.authentication": "3.3.1"
       },
       "url": "https://packages.unity.com"
     },
@@ -122,6 +188,23 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.deployment": {
+      "version": "1.7.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.services.core": "1.15.1",
+        "com.unity.services.deployment.api": "1.1.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.deployment.api": {
+      "version": "1.1.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.services.levelplay": {
